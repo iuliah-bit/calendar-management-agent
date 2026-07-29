@@ -90,3 +90,26 @@ Never upload these files to GitHub:
 credentials.json
 token.json
 ```
+## Screenshots
+
+### Terminal Demo
+
+The agent understands the natural language request, detects that the requested time slot is already occupied, suggests alternative available slots, and successfully creates the event after confirmation.
+
+![Terminal Demo](images/terminal-demo.png)
+
+---
+
+### Google Calendar Result
+
+The event is successfully created in Google Calendar with attendees, reminder, and all requested details.
+
+![Google Calendar](images/google-calendar-result.png)
+
+---
+
+### Invitation Email
+
+After the event is created, Google Calendar automatically sends an invitation email to the attendees.
+
+![Invitation Email](images/invitation-email.png)
